@@ -1,0 +1,146 @@
+body,h1,h2,p{
+    margin: 0;
+}
+
+.main{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#logo{
+    font-size: 50px;
+    color: #0446d3;
+    padding: 20px 0px;
+}
+
+.form-container{
+    background-color: white;
+    width: 430px;
+    border-radius: 5px;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2{
+    padding-bottom: 5px;
+}
+
+.input-fields{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input, select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.half-width{
+    display: flex;
+    width: 48%;
+}
+
+.full-width{
+    display: flex;
+    width: 100%;
+}
+
+label{
+    font-size: 15px;
+    color: #606770;
+    padding-bottom: 10px;
+}
+
+.quarter-width{
+    display: flex;
+    width: 32%;
+}
+
+.radio-btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.dob{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+select{
+    background-color: #fff;
+}
+
+.radio-label{
+    padding-bottom: 0;
+    font-size: 15px;
+    color: black;
+}
+
+.radio-input{
+    margin: 0;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+small{
+    margin-top: 10px;
+}
+
+.btn{
+    border: 0;
+    background-color: #00a400;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 70px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.signup-btn{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.account{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:480px){
+    
+}
